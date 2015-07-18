@@ -7,8 +7,11 @@
 /*
  
  The circuit:
+ See : http://i.imgur.com/6NgEkOm.jpg
+ 
  * Switch between +3.7v and 5V boost converter
- * Switch between +5v and pin 10
+ * Switch between GND and pin 10
+ * Resistor between pin 10 and +5v
  
  * LCD RS pin to digital pin 9
  * LCD WR pin to digital pin 8
