@@ -22,6 +22,8 @@ void MomentaryButton::setup()
 {
 	pinMode(pin, INPUT);
 	digitalWrite(pin, HIGH);
+	holdThreshold = 250;
+	bounceThreshold = 50;
 }
 
 void MomentaryButton::check()
