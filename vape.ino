@@ -438,14 +438,6 @@ void stateMachine(){
   }
 }
 
-void helicopter(){
-  digitalWrite(fetPin, LOW);
-  while(true){
-    lcd.clear();
-    delay(100);
-  } 
-}
-
 void speedRead(){
   int i;
   strPos = 0;
