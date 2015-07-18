@@ -18,8 +18,8 @@ class MomentaryButton {
 private:
 	// Any button press >= HOLD_THRESHOLD milliseconds is considered a hold,
 	//	not a click.
-	unsigned long holdThreshold = 250;
-	unsigned long bounceThreshold = 50;
+	unsigned long holdThreshold;
+	unsigned long bounceThreshold;
 	// Was this button pushed (closed) when last checked?
 	boolean wasClosed;
 	// When was this button pushed (closed)?
