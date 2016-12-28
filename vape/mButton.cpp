@@ -6,7 +6,7 @@ Written by Mark Fickett
 Modified by Julian Loiacono December '14
 */
 
-#include "MomentaryButton.h"
+#include "mButton.h"
 
 
 MomentaryButton::MomentaryButton(int inputPin)
